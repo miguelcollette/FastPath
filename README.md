@@ -69,10 +69,10 @@ As we build the graph we make a dictionary that maps the coordinates of a node t
 
 So at the end we have a graph defined by:
 
-*a adjacency dictionary: keys being the node object and values being the adjacency lists of those nodes
-*A dictionary that maps the coordinates of a pixel to the associated node, if any
-*a list of the routes with for each route, all the pixels that are on this route
-*the key points: Start / finish points
+* an adjacency dictionary: keys being the node object and values being the adjacency lists of those nodes
+* a dictionary that maps the coordinates of a pixel to the associated node, if any
+* a list of the routes with for each route, all the pixels that are on this route
+* the key points: Start / finish points
 
 ### Run A* algorithm on this graph from one key point to the other.
 
