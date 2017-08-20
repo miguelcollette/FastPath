@@ -94,7 +94,7 @@ That's also why I clear the path finding related information after the output ro
 Also the heuristic could be easily switched to Euclidean distance instead of Manhattan distance if we considered diagonal routes.
 Finally, it would be reasonably easy to add routes, nodes and update the graph from the existing network.
 
-The solution I proposed works for all the input images you gave, including the largest network.
+The solution I proposed works for all the given input images, including the largest network.
 For even bigger network, I think the most time consuming task is to build the graph, then A* is probably one of the fastest solutions to find the path.
 One thing to consider would be to take into account the number of different modes of transportations, the walking time etc.
 With a multicriteria approach A* is much less straight forward and it would not be trivial to choose only one path and in an acceptable time.
